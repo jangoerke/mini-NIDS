@@ -11,7 +11,7 @@ def main():
         except queue.Empty:
             continue
         except KeyboardInterrupt:
-            pkt_capture.stop_capture()
+            pkt_capture.end_capture()
             break
 
 
